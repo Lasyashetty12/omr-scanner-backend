@@ -4,6 +4,7 @@ python-multipart
 opencv-python-headless
 numpy
 onnxruntime
-SQLAlchemy>=2.0.36,<3
+SQLAlchemy==2.0.23
 alembic==1.12.1
-python-dotenvpsycopg2-binary
+python-dotenv
+psycopg2-binary
