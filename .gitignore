@@ -28,6 +28,8 @@ final_five_debug/
 !static/*.jpg
 !static/*.svg
 !templates/*.png
+!references/
+!references/*.png
 
 recognition_report.csv
 recognition_report.json

@@ -14,6 +14,7 @@ from fastapi import (
     UploadFile,
     Depends,
 )
+from fastapi.middleware.cors import CORSMiddleware
 
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -46,6 +47,15 @@ from scorer import (
 app = FastAPI(
     title="OMR Scanner API",
     version="2.1.0",
+)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://omr-scanner-frontend-rosy.vercel.app",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
