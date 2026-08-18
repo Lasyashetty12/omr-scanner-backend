@@ -1,0 +1,245 @@
+{
+    "template_name": "jee",
+    "exam_name": "JEE",
+    "version": 1,
+    "sheet_width": 1600,
+    "sheet_height": 2200,
+    "total_questions": 90,
+    "series": {
+        "enabled": true,
+        "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "x_positions": [
+            323,
+            359,
+            395,
+            431,
+            467,
+            503,
+            539
+        ],
+        "start_y": 264,
+        "row_gap": 25
+    },
+    "mcq_settings": {
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "bubble_radius": 9,
+        "dark_pixel_threshold": 120,
+        "blank_threshold": 0.18,
+        "filled_threshold": 0.42,
+        "multiple_threshold": 0.42
+    },
+    "mcq_sections": [
+        {
+            "name": "PHYSICS_SECTION_I",
+            "question_start": 1,
+            "question_end": 20,
+            "columns": [
+                {
+                    "A": 278,
+                    "B": 314,
+                    "C": 350,
+                    "D": 387
+                },
+                {
+                    "A": 489,
+                    "B": 525,
+                    "C": 561,
+                    "D": 598
+                }
+            ],
+            "question_y_positions": [
+                594,
+                618,
+                642,
+                666,
+                690,
+                714,
+                738,
+                762,
+                786,
+                810
+            ]
+        },
+        {
+            "name": "CHEMISTRY_SECTION_I",
+            "question_start": 21,
+            "question_end": 40,
+            "columns": [
+                {
+                    "A": 278,
+                    "B": 314,
+                    "C": 350,
+                    "D": 387
+                },
+                {
+                    "A": 489,
+                    "B": 525,
+                    "C": 561,
+                    "D": 598
+                }
+            ],
+            "question_y_positions": [
+                1188,
+                1212,
+                1236,
+                1260,
+                1284,
+                1308,
+                1332,
+                1356,
+                1380,
+                1404
+            ]
+        },
+        {
+            "name": "MATHS_SECTION_I",
+            "question_start": 41,
+            "question_end": 60,
+            "columns": [
+                {
+                    "A": 278,
+                    "B": 314,
+                    "C": 350,
+                    "D": 387
+                },
+                {
+                    "A": 489,
+                    "B": 525,
+                    "C": 561,
+                    "D": 598
+                }
+            ],
+            "question_y_positions": [
+                1668,
+                1692,
+                1716,
+                1740,
+                1764,
+                1788,
+                1812,
+                1836,
+                1860,
+                1884
+            ]
+        }
+    ],
+    "numerical_settings": {
+        "enabled": true,
+        "digit_values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "digit_positions": 6,
+        "bubble_radius": 8
+    },
+    "numerical_sections": [
+        {
+            "name": "PHYSICS_SECTION_II",
+            "question_start": 21,
+            "question_end": 30,
+            "question_x": 588,
+            "question_y_positions": [
+                302,
+                491,
+                680,
+                869,
+                1058,
+                1247,
+                1436,
+                1625,
+                1814,
+                2003
+            ],
+            "digit_x_positions": [
+                648,
+                686,
+                724,
+                762,
+                814,
+                852
+            ],
+            "digit_y_offset": 48,
+            "digit_row_gap": 27
+        },
+        {
+            "name": "CHEMISTRY_SECTION_II",
+            "question_start": 31,
+            "question_end": 40,
+            "question_x": 1020,
+            "question_y_positions": [
+                302,
+                491,
+                680,
+                869,
+                1058,
+                1247,
+                1436,
+                1625,
+                1814,
+                2003
+            ],
+            "digit_x_positions": [
+                1080,
+                1118,
+                1156,
+                1194,
+                1246,
+                1284
+            ],
+            "digit_y_offset": 48,
+            "digit_row_gap": 27
+        },
+        {
+            "name": "MATHS_SECTION_II",
+            "question_start": 41,
+            "question_end": 50,
+            "question_x": 1390,
+            "question_y_positions": [
+                302,
+                491,
+                680,
+                869,
+                1058,
+                1247,
+                1436,
+                1625,
+                1814,
+                2003
+            ],
+            "digit_x_positions": [
+                1450,
+                1488,
+                1526,
+                1564,
+                1616,
+                1654
+            ],
+            "digit_y_offset": 48,
+            "digit_row_gap": 27
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "template_name": "sample_50q",
+    "version": 1,
+    "sheet_width": 1200,
+    "sheet_height": 1700,
+    "total_questions": 50,
+    "questions_per_column": 10,
+    "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
+    "bubble_radius": 10,
+    "dark_pixel_threshold": 100,
+    "blank_threshold": 0.18,
+    "filled_threshold": 0.50,
+    "multiple_threshold": 0.50,
+    "question_start_y": 680,
+    "question_row_gap": 90,
+    "columns": [
+        {
+            "A": 52,
+            "B": 99,
+            "C": 145,
+            "D": 189
+        },
+        {
+            "A": 310,
+            "B": 354,
+            "C": 399,
+            "D": 445
+        },
+        {
+            "A": 561,
+            "B": 607,
+            "C": 652,
+            "D": 696
+        },
+        {
+            "A": 810,
+            "B": 855,
+            "C": 899,
+            "D": 944
+        },
+        {
+            "A": 1060,
+            "B": 1106,
+            "C": 1151,
+            "D": 1192
+        }
+    ]
+}

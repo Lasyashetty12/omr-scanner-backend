@@ -1,0 +1,11 @@
+{
+    "exam": "JEE",
+    "series": "C",
+    "marking": {
+        "correct": 4,
+        "wrong": -1,
+        "blank": 0,
+        "multiple": -1
+    },
+    "answers": {}
+}

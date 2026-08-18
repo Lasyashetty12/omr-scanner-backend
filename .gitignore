@@ -1,0 +1,52 @@
+# Python & virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets and heavy models
+dataset/
+models/bubble_saved_model/
+
+# Temporary / backup python refactoring files
+*_before_*.py
+*_diagnostic*.py
+
+# Generated scanner diagnostic images and data reports
+alignment_debug/
+debug_onnx_inputs/
+debug_uncertain_crops/
+photo_invariance_diagnostic/
+final_five_debug/
+
+*.jpg
+*.jpeg
+*.png
+!static/*.png
+!static/*.jpg
+!static/*.svg
+!templates/*.png
+
+recognition_report.csv
+recognition_report.json
+*.csv
+
+# Runtime uploads (retain directory marker)
+uploads/*
+!uploads/.gitkeep
+
+# Temporary pip work directories
+pip-metadata-*/
+pip-unpack-*/
+pip-build-tracker-*/
+pip-ephem-wheel-cache-*/
+pip-install-*/
+pip-target-*/
+
+# Secrets & Local Databases
+.env
+.env.*
+*.db
+
