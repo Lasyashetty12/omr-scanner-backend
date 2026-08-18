@@ -1466,6 +1466,13 @@ def get_exams(db: Session = Depends(get_db)):
     
     return [e[0] for e in sorted(exams) if e[0]]
 
+@app.get("/scan-test")
+def scan_test():
+    return {
+        "status": "ok",
+        "message": "Vercel can reach the scan route"
+    }
+
 
 if __name__ == "__main__":
     import uvicorn
